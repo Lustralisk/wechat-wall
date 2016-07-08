@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>weChat Wall</title>
+		<link rel="stylesheet" href="static/css/stylesheet.css" />
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	</head>
+	<body ng-app="wall">
+		<div class="wall-background" ng-controller="wallCtrl">
+			<div class="wall-propo">
+				<marquee>This is just a notice!</marquee>
+			</div>
+			<div class="wall-card box" ng-repeat="card in cards" ng-model="card.content">
+				[[ card.content ]]
+			</div>
+		</div>
+		<div id="pre-loading">Loading...</div>
+		<script src="static/js/app.js"></script>
+	</body>
+</html>

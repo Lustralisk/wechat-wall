@@ -1,0 +1,104 @@
+body {
+	font-family: Arial, Tahoma, Verdana;
+}
+
+.wall-background {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #E6EEF6;
+	position: absolute;
+}
+
+.wall-propo {
+	width: 90%;
+	height: 15%;
+	margin: 2% auto 2% auto;
+	background-color: #9EEBBF;
+	color: #FFF;
+	font-size: 12vh;
+}
+
+.wall-card {
+	width: 80%;
+	height: 17%;
+	margin: 1% 10% 1% 10%;
+	background-color: #9EB3EB;
+	display: none;
+	position: absolute;
+}
+
+.admin {
+	background-color: #EBA39E;
+}
+
+.portrait {
+	background-image: url(../../static/img/loading.gif);
+	position: absolute;
+	top: 10%;
+	left: 13%;
+	height: 80%;
+	width: 10%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.portrait-dec {
+	position: absolute;
+	top: 10%;
+	left: 1%;
+	height: 80%;
+	width: 10%;
+	background-size: 100%;
+}
+
+.admin-portrait {
+	background-image: url(../../static/img/admin.png);
+	background-size: 100%;
+}
+
+.admin-dec {
+	background-image: url(../../static/img/award.png);
+	background-size: 60%;
+	background-position: 20%;
+	background-repeat: no-repeat;
+}
+
+.nickname {
+	position: absolute;
+	left: 26%;
+	top: 1%;
+	font-size: 6vh;
+}
+
+.message {
+	position: absolute;
+	left: 28%;
+	width: 70%;
+	top: 37%;
+	font-size: 8vh;
+}
+
+.test {
+	font-size: 8vh;
+}
+
+.marquee {
+	-webkit-marquee: auto medium infinite scroll normal; 
+	overflow-x: -webkit-marquee;
+	white-space: nowrap;
+}
+
+#pre-loading {
+	font-size: 20vh;
+	background-color: #000;
+	color: #FFF;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	top: 0;
+}
